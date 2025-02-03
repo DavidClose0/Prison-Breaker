@@ -645,6 +645,11 @@ PrefabInstance:
     serializedVersion: 3
     m_TransformParent: {fileID: 0}
     m_Modifications:
+    - target: {fileID: 1481397450470470766, guid: a7a13216530ac984c8cb1ee63986ce89,
+        type: 3}
+      propertyPath: m_UseGravity
+      value: 0
+      objectReference: {fileID: 0}
     - target: {fileID: 1611525729949082845, guid: a7a13216530ac984c8cb1ee63986ce89,
         type: 3}
       propertyPath: m_Name
@@ -822,6 +827,11 @@ PrefabInstance:
     serializedVersion: 3
     m_TransformParent: {fileID: 0}
     m_Modifications:
+    - target: {fileID: 1481397450470470766, guid: a7a13216530ac984c8cb1ee63986ce89,
+        type: 3}
+      propertyPath: m_UseGravity
+      value: 0
+      objectReference: {fileID: 0}
     - target: {fileID: 1611525729949082845, guid: a7a13216530ac984c8cb1ee63986ce89,
         type: 3}
       propertyPath: m_Name
@@ -1242,7 +1252,7 @@ MonoBehaviour:
   m_fontMaterials: []
   m_fontColor32:
     serializedVersion: 2
-    rgba: 4278190335
+    rgba: 2449473791
   m_fontColor: {r: 1, g: 0, b: 0, a: 0.57254905}
   m_enableVertexGradient: 0
   m_colorMode: 3
@@ -1938,6 +1948,11 @@ PrefabInstance:
     serializedVersion: 3
     m_TransformParent: {fileID: 0}
     m_Modifications:
+    - target: {fileID: 1481397450470470766, guid: a7a13216530ac984c8cb1ee63986ce89,
+        type: 3}
+      propertyPath: m_UseGravity
+      value: 0
+      objectReference: {fileID: 0}
     - target: {fileID: 1611525729949082845, guid: a7a13216530ac984c8cb1ee63986ce89,
         type: 3}
       propertyPath: m_Name
@@ -2192,7 +2207,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 0cd44c1031e13a943bb63640046fad76, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  m_UiScaleMode: 0
+  m_UiScaleMode: 1
   m_ReferencePixelsPerUnit: 100
   m_ScaleFactor: 1
   m_ReferenceResolution: {x: 800, y: 600}
@@ -2750,6 +2765,11 @@ PrefabInstance:
     serializedVersion: 3
     m_TransformParent: {fileID: 0}
     m_Modifications:
+    - target: {fileID: 1481397450470470766, guid: a7a13216530ac984c8cb1ee63986ce89,
+        type: 3}
+      propertyPath: m_UseGravity
+      value: 0
+      objectReference: {fileID: 0}
     - target: {fileID: 1611525729949082845, guid: a7a13216530ac984c8cb1ee63986ce89,
         type: 3}
       propertyPath: m_Name
@@ -2839,6 +2859,11 @@ PrefabInstance:
         type: 3}
       propertyPath: m_LocalEulerAnglesHint.z
       value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 8675448485394966696, guid: a7a13216530ac984c8cb1ee63986ce89,
+        type: 3}
+      propertyPath: m_CullingMask.m_Bits
+      value: 119
       objectReference: {fileID: 0}
     m_RemovedComponents: []
     m_RemovedGameObjects: []
