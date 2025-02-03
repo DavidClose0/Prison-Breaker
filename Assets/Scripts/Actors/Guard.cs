@@ -14,8 +14,8 @@ public class Guard : Kinematic
     private Light spotLight;
     public Color pursueSpotlightColor = Color.red;
 
-    public float detectionDistance = 5f;
-    public float detectionAngle = 45f;
+    public float detectionDistance = 10f;
+    public float detectionAngle = 15f;
     public float delay = 3f;
     bool isChasingPlayer = false;
 
@@ -57,10 +57,11 @@ public class Guard : Kinematic
         // Player detected
         if (!isChasingPlayer && distanceToPlayer <= detectionDistance && angleToPlayer <= detectionAngle)
         {
-            // Switch to chase behavior
+            // Switch to pursue behavior
             myMoveType = pursueMoveType;
             pursueMoveType.target = player; // Update chase target every frame in case player moved
             myRotateType.target = pursueMoveType.target; // Face the player
+            maxSpeed = 3; // Increase max speed
 
             this.GetComponent<MeshRenderer>().material = pursueMaterial;
             spotLight.color = pursueSpotlightColor;

@@ -7,6 +7,7 @@ TagManager:
   - bird
   - Wall
   - End
+  - Prisoner
   layers:
   - Default
   - TransparentFX
